@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+body {
+  background: url(./images/background-1939128.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+
+.segunda-coluna {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-container-login {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+div.row.container-cadastro {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+div.row.container-login {
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.titulo {
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.descricao {
+  font-size: 20px;
+}
+
+.formulario {
+  margin: 20px;
+  /* text-align: center; */
+}
+
+input.cadastro {
+  display: block;
+  margin-bottom: 15px;
+  width: 415px;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  border: 1px solid darkgrey;
+  color: black;
+  outline: none;
+  border-radius: 10px;
+}
+
+input:hover {
+  border: 1px solid grey;
+}
+
+input.btn-cadastro {
+  display: block;
+  margin-top: 20px;
+  width: 425px;
+  height: 40px;
+  background: #04911c;
+  color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  opacity: 0.8;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+button.btn {
+  display: block;
+  margin-top: 20px;
+  width: 522px;
+  height: 40px;
+  background: #04911c;
+  color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+#logar {
+  display: block;
+  margin-top: 20px;
+  width: 315px;
+  height: 40px;
+  background: #04911c;
+  color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  opacity: 0.8;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+#voltar {
+  display: block;
+  margin-top: 20px;
+  width: 425px;
+  height: 40px;
+  background: #04911c;
+  color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  opacity: 0.8;
+  font-size: 18px;
+}

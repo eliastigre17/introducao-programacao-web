@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teste</title>
+  <link rel="stylesheet" href="./styles2.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body style="margin: 25px;">
+
+  <h2>Cadastro de produtos</h2>
+
+  <div>
+    <form id="infos-prod">
+      <label for="descricao"></label>
+      <input type="text" id="descricao" name="descricao" placeholder="Descrição" />
+  
+      <label for="detalhamento"></label>
+      <input type="text" id="detalhamento" name="detalhamento" placeholder="Detalhamento" />
+      
+      <input type="hidden" name="idx" id="idx" value="novo" />
+      <input type="submit" value="Salvar" >
+    </form>
+    <input type="button" id="sair" value="Sair" onclick="sair()" >
+    <div id="msg-erro"></div>
+  </div>
+
+  <br><br>
+
+  <table>
+
+    <caption>
+      <h3>Lista de produtos</h3>
+    </caption>
+
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Descrição</th>
+        <th>Detalhamento</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+
+    <tbody id="tbody"></tbody>
+
+  </table>
+
+  <script src="recados.js"></script>
+</body>
+
+</html>

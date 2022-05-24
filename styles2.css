@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+h2, h3 {
+ color: white;
+}
+
+#botaoAtualizarRecados {
+    display: none;
+  }
+  
+  
+  table, th, td {  
+    border: 1px solid black;  
+    border-collapse: collapse;  
+    background-color: whitesmoke;
+  }  
+  
+  th, td {  
+    padding: 10px; 
+    width: 200px;
+    text-align: center;
+  }  
+  
+  table th {  
+    color: black;  
+    background-color: white;  
+  }  
+  
+  tbody th{
+    opacity: .8;
+  }
+  
+  img{
+    margin: 0 10px 0 10px;
+  }
+  
+  input[type=submit]{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background: #04911c;
+    color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: none;
+    opacity: 0.8;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  
+  div#msg-erro{
+    color: red
+  }
+
+  body {
+    background: url(./images/background-1939128.jpg) ;
+    background-size: cover;
+    }
+
+  #sair {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 1019px;
+    width: 150px;
+    height: 40px;
+    background: red;
+    color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: none;
+    opacity: 0.8;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  input {
+  margin-top: 20px;
+  width: 425px;
+  height: 40px;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+  text-shadow: none;
+  opacity: 0.8;
+  font-size: 18px;
+  border-radius: 10px;
+  }
+
+  .button-apagar {
+    width: 80px;
+    height: 35px;
+    background: red;
+    color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: none;
+    opacity: 0.8;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  .button-editar {
+    width: 80px;
+    height: 35px;
+    background: green;
+    color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px black;
+    text-shadow: none;
+    opacity: 0.8;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  td {
+    font-weight: 800;
+  }
